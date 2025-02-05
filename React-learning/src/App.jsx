@@ -11,13 +11,20 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Food from "./Food"
 import Card from "./Card"
+import Student from "./Student"
+import Greeting from "./Greeting"
 
 function App() {
   return(
     <>
+      <Greeting isLoggedIn={true} username="Aliane"/>
       <Header />
       <Card />
       <Food />
+      <Student name="SpongeBob" age={30} isStudent={true}/>
+      <Student name="Patrick" age={42} isStudent={false} />
+      <Student name ="Squidward" age={50} isStudent={false}/>
+      <Student name="Sandy" age={27} isStudent={true}/>
       <Footer />
     </>
     
