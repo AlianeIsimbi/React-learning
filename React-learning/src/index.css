@@ -50,6 +50,16 @@
 .input-box{
   margin-top: 20px;
 }
+.order-form{
+  background-color: rgb(172, 221, 240);
+  border-radius: 10px;
+  align-content: center;
+  margin-left: 50px;
+  margin-right: 200px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

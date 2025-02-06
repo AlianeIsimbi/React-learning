@@ -15,6 +15,7 @@ import Student from "./Student"
 import Greeting from "./Greeting"
 import Buttons from "./Buttons"
 import Input from "./Input"
+import Order from "./Order"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Student name="Patrick" age={42} isStudent={false} />
       <Student name ="Squidward" age={50} isStudent={false}/>
       <Student name="Sandy" age={27} isStudent={true}/>
+      <Order />
       <Footer />
     </>
     
