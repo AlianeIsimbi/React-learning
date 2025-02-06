@@ -13,11 +13,18 @@ import Food from "./Food"
 import Card from "./Card"
 import Student from "./Student"
 import Greeting from "./Greeting"
+import Buttons from "./Buttons"
+import Input from "./Input"
+
 
 function App() {
   return(
     <>
-      <Greeting isLoggedIn={true} username="Aliane"/>
+      <Greeting isLoggedIn={true} username="Aliane" />
+      <Buttons />
+      <br>
+      </br>
+      <Input />
       <Header />
       <Card />
       <Food />
