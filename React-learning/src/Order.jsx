@@ -28,7 +28,7 @@ function Order(){
             <h2> Order details</h2>
             <input value={name} onChange={handleNameChange}/>
             <p> Name:{name} </p>
-            <input value={quantity} onChange={handleQuantityChange} />
+            <input type="number" value={quantity} onChange={handleQuantityChange} />
             <p>Quantity: {quantity}</p>
             <textarea value={comment} onChange={handleCommentChange} placeholder="Enter order instructions"/>
             <p> Comment: {comment}</p>

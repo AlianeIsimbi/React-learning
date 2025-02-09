@@ -16,12 +16,14 @@ import Greeting from "./Greeting"
 import Buttons from "./Buttons"
 import Input from "./Input"
 import Order from "./Order"
+import Object from "./Object"
+import Fruits from "./Fruits"
 
 
 function App() {
   return(
     <>
-      <Greeting isLoggedIn={true} username="Aliane" />
+      {/* <Greeting isLoggedIn={true} username="Aliane" />
       <Buttons />
       <br>
       </br>
@@ -34,7 +36,10 @@ function App() {
       <Student name ="Squidward" age={50} isStudent={false}/>
       <Student name="Sandy" age={27} isStudent={true}/>
       <Order />
-      <Footer />
+      <Object />
+      <Fruits />
+      <Footer /> */}
+
     </>
     
   );
